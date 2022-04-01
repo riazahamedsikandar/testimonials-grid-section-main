@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+
+:root{
+--clr-Moderate-violet: hsl(263, 55%, 52%);
+--clr-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--clr-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--clr-White: hsl(0, 0%, 100%);
+--clr-Light-gray: hsl(0, 0%, 81%);
+--clr-gray: hsl(210, 46%, 95%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--clr-gray);
+}
+
+section1{
+    display: grid;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 2.5rem;
+    background-color: var(--clr-Moderate-violet);
+    border-radius: 0.5rem;
+    border-color: var(--clr-Moderate-violet);
+    color: var(--clr-White);
+    padding: 20px 40px;
+}
+section1 .card-name{
+    padding-left: 4.5rem;
+    font-size: 1rem;
+    
+}
+
+section1 .card-position{
+    padding-left:4.5rem;
+    opacity: 50%; 
+    font-size: 1rem;
+}
+section1 img{
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    border: solid 1px;
+    color: hsl(263, 55%, 60%);
+    margin-bottom: 1rem;
+}
+
+section1 h2{
+    color:#fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+section1 p{
+    font-size: 1rem;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+
+section2{
+    display: grid;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 2.5rem;
+    background-color: var(--clr-Very-dark-grayish-blue);
+    border-radius: 0.5rem;
+    border-color: var(--clr-Very-dark-grayish-blue);
+    color: var(--clr-White);
+    padding: 20px 40px;
+}
+section2 .card-name{
+    padding-left: 4.5rem;
+    font-size: 1rem;
+    
+}
+
+section2 .card-position{
+    padding-left:4.5rem;
+    opacity: 50%; 
+    font-size: 1rem;
+}
+section2 img{
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+}
+
+section2 h2{
+    color:#fff;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+section2 p{
+    font-size: 1.1rem;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+
+section3{
+    display: grid;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 2.5rem;
+    background-color: var(--clr-White);
+    border-radius: 0.5rem;
+    border-color: var(--clr-White);
+    color: var(--clr-Very-dark-blackish-blue);
+    padding: 20px 40px;
+}
+section3 .card-name{
+    padding-left: 4.5rem;
+    font-size: 1rem;
+    color: var(--clr-Very-dark-blackish-blue);
+    
+}
+
+section3 .card-position{
+    padding-left:4.5rem;
+    opacity: 50%; 
+    font-size: 1rem;
+    color: var(--clr-Very-dark-blackish-blue);
+}
+section3 img{
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+}
+
+section3 h2{
+    color:var(--clr-Very-dark-blackish-blue);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+section3 p{
+    font-size: 1.2rem;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+section4{
+    display: grid;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 2.5rem;
+    background-color: var(--clr-Very-dark-grayish-blue);
+    border-radius: 0.5rem;
+    border-color: var(--clr-Very-dark-grayish-blue);
+    color: var(--clr-White);
+    padding: 20px 40px;
+}
+section4 .card-name{
+    padding-left: 4.5rem;
+    font-size: 1rem;
+    
+}
+
+section4 .card-position{
+    padding-left:4.5rem;
+    opacity: 50%; 
+    font-size: 1rem;
+}
+section4 img{
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+    border: solid ;
+    border-color: var(--clr-Moderate-violet);
+}
+
+section4 h2{
+    color:#fff;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+section4 p{
+    font-size: 1.1rem;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+section5{
+    display: grid;
+    border: solid;
+    margin: 15px;
+    margin-bottom: 2.5rem;
+    background-color: var(--clr-White);
+    border-radius: 0.5rem;
+    border-color: var(--clr-White);
+    color: var(--clr-Very-dark-blackish-blue);
+    padding: 20px 40px;
+}
+section5 .card-name{
+    padding-left: 4.5rem;
+    font-size: 1rem;
+    
+}
+
+section5 .card-position{
+    padding-left:4.5rem;
+    opacity: 50%; 
+    font-size: 1rem;
+}
+section5 img{
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    margin-bottom: 1rem;
+}
+
+section5 h2{
+    color:var(--clr-Very-dark-blackish-blue);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+section5 p{
+    font-size: 1.1rem;
+    opacity: 50%;
+    margin-bottom: 1rem;
+}
+
